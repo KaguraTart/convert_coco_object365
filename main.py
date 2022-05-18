@@ -73,7 +73,7 @@ def main():
         # paramter: headstr, tailstr, objstr, input_dir, anno_dir, output_dir
         main_object365(classes, input_dir, output_dir, headstr, tailstr, objstr)
     elif dataset == "coco":
-        # python main.py -p coco -i "C:\coco\val2014" -o "C:\coco\val2014\result/"
+        # python main.py -d coco -i "C:\coco\val2014" -o "C:\coco\val2014\result/"
         if dyear == "":
             print("dataset-year is required")
             exit(1)
